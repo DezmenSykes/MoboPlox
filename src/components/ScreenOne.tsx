@@ -15,7 +15,8 @@ export function ScreenOne({ navigation }: ScreenOneProps) {
   return (
     <flexboxLayout style={styles.container}>
       <label className="text-2xl mb-4 font-bold text-center">
-        MOBILE DEVELOPMENT ON THE WAY!!
+        update!
+        
       </label>
       <button style={styles.button} onTap={() => Dialogs.alert('Tapped!')}>
         Tap me for an alert plzzz
